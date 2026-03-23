@@ -1,0 +1,13 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./utilities.css";
+
+/* Components */
+@import "./components/index.css";
+
+/* Global styles */
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
