@@ -9,7 +9,7 @@ class SPAHandler(SimpleHTTPRequestHandler):
             self.path = "index.html"
             return super().do_GET()
 
-PORT = 8000
+PORT = 4000
 httpd = HTTPServer(("", PORT), SPAHandler)
 print(f"Serving SPA on port {PORT}")
 httpd.serve_forever()
